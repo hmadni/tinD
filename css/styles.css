@@ -1,0 +1,185 @@
+body
+{
+  font-family: "Montserrat";
+}
+
+.container-fluid
+{
+ padding: 2.5% 12% 5.5%;
+}
+
+.carousel-item
+{
+ padding: 7% 20%;
+}
+
+#cta
+{
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 7% 15% 6%;
+  color: #fff;
+}
+
+.cta-heading
+{
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-family: "Montserrat-Black"
+}
+.down-btn
+{
+  margin: 3% 3% 5% 0;
+}
+
+#features
+{
+  padding: 5% 15%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+.fea-box
+{
+ text-align: center;
+ padding: 5%;
+}
+
+#footer
+{
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.footer-button
+{
+  margin: 20px 10px 15px;
+}
+
+h1
+{
+  font-family: 'Montserrat-Bold', sans-serif;
+  font-weight: bolder;
+  font-size: 3.5rem;
+  color: #f9f6f7;
+  line-height: 1.5;
+}
+
+h2
+{
+  font-family: 'Montserrat-Bold', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: bolder;
+}
+
+h3
+{
+  font-family: "Montserrat-Bold";
+  font-size: 1.7rem;
+  font-weight: bold;
+}
+
+.icon
+{
+  margin-bottom: 1rem;
+  color: #ef8172;
+}
+
+.icon:hover
+{
+  color: #ff4c68;
+}
+
+.navbar
+{
+  padding: 0 0 3rem 0;
+}
+
+.navbar-brand
+{
+  color: #f9f6f7;
+  font-size: 3rem;
+}
+
+.nav-link
+{
+    font-size: 1.2rem;
+    font-weight: "Montserrat-light";
+    margin: 2rem;
+}
+
+p
+{
+  color: grey;
+  font-size: 1rem;
+  font-weight: normal;
+}
+
+#pricing
+{
+ padding: 100px;
+ text-align: center;
+ font-weight: bold;
+}
+
+.pricing-coloumn
+{
+  padding: 3% 3%;
+
+}
+
+#press
+{
+  text-align: center;
+  padding-bottom: 4%;
+  background-color: #ef8172;
+}
+
+.press-logo
+{
+  width:15%;
+  margin: 20px 20px 30px;
+}
+
+#title
+{
+  background-color: #ff4c68;
+}
+
+.t-img
+{
+  width: 55%;
+  transform: rotate(25deg);
+  position: absolute;
+  left: 19%;
+}
+
+#testimonials
+{
+  text-align: center;
+  background-color: #ef8172;
+  color:  #f9f6f7;
+}
+
+.test-img
+{
+  border-radius: 100%;
+  width:12%;
+  margin: 20px;
+}
+
+@media (max-width:1100px) {
+
+  #title
+  {
+    text-align: center;
+  }
+
+  .t-img{
+    padding-top: 5%;
+    position: static;
+    transform: rotate(0);
+  }
+}
